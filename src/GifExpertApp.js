@@ -5,7 +5,10 @@ import { GifGrid } from './components/GifGrid';
 export const GifExpertApp = ({ defaultCategories = [] }) => {
     
     // const [categories, setCategories] = useState(['One Punch']);
-    const [categories, setCategories] = useState( defaultCategories );
+    
+    //const [categories, setCategories] = useState( defaultCategories );
+    
+    const [categories, setCategories] = useState( ['Forest'] );
 
     return (
         <>
