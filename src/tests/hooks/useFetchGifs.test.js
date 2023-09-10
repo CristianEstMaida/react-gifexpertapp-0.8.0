@@ -6,7 +6,7 @@ describe('Pruebas en el hook useFetchGifs', () => {
 
     test('debe de retornar el estado inicial', async() => {
 
-        const { result, waitForNextUpdate } = renderHook( () => useFetchGifs( 'One Punch' ) );
+        const { result, waitForNextUpdate } = renderHook( () => useFetchGifs( 'Forest' ) );
         const { data, loading } = result.current;
 
         await waitForNextUpdate();
