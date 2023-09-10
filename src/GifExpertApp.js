@@ -18,7 +18,7 @@ export const GifExpertApp = ({ defaultCategories = [] }) => {
 
             <ol>
                 {
-                    categories.map( category  => (
+                    categories.filter( category => category !== 'One Punch' ).map( category  => (
                         <GifGrid 
                             key={ category }
                             category={ category }
